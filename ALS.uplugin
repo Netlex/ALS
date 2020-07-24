@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "4.1",
+	"FriendlyName": "Advanced Locomotion System",
+	"Description": "Optimized and replicated C++ version based on Advanced Locomotion System V4",
+	"Category": "Animation",
+	"CreatedBy": "Netlex Studio",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1",
+	"SupportURL": "",
+	"EngineVersion": "4.25.0",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ALS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule",
+				"GameplayTasks"
+			]
+		}
+	]
+}
