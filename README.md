@@ -1,4 +1,5 @@
 # Advanced Locomotion System V4 on C++
+![image](https://github.com/dyanikoglu/ALSV4_CPP/raw/master/Resources/Readme_Content_2.gif)
 
 Оптимизированная и реплицируемая C++ (Plugin) версия на основе [Advanced Locomotion System V4](https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1) для **Unreal Engine 4.25+**
 
@@ -73,3 +74,5 @@ Advanced Locomotion System V4 (C++):
 +PackageRedirects=(OldName="/ALS/AdvancedLocomotionV4",NewName="/ALS",MatchSubstring=true)
 +PackageRedirects=(OldName="/ALS/AdvancedLocomotionV4",Removed=true)
 ```
+- Запустите свой проект и включите просмотр контента плагина, как показано ниже:
+![image](https://github.com/dyanikoglu/ALSV4_CPP/raw/master/Resources/Readme_Content_1.png)
