@@ -1,4 +1,4 @@
-# Advanced Locomotion System V4 on C++
+# Раширенная Advanced Locomotion System V4 на C++
 ![image](https://github.com/dyanikoglu/ALSV4_CPP/raw/master/Resources/Readme_Content_2.gif)
 
 Оптимизированная реплицируемая и расширенная C++ (Plugin) версия на основе [Advanced Locomotion System V4](https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1) для **Unreal Engine 4.25+**
