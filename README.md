@@ -85,6 +85,9 @@ Advanced Locomotion System V4 (C++):
 +PhysicalSurfaces=(Type=SurfaceType12,Name="Water")
 +PhysicalSurfaces=(Type=SurfaceType13,Name="Wood")
 
+[/Script/Engine.Engine]
+WorldSettingsClassName=/Script/SurfaceFootstepSystem.FootstepWorldSettings
+
 [CoreRedirects]
 +PackageRedirects=(OldName="/ALSV4_CPP",NewName="/ALS",MatchSubstring=true)
 +PackageRedirects=(OldName="/ALSV4_CPP",Removed=true)
