@@ -1,9 +1,10 @@
 # Advanced Locomotion System V4 on C++
 ![image](https://github.com/dyanikoglu/ALSV4_CPP/raw/master/Resources/Readme_Content_2.gif)
 
-Оптимизированная и реплицируемая C++ (Plugin) версия на основе [Advanced Locomotion System V4](https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1) для **Unreal Engine 4.25+**
+Оптимизированная реплицируемая и расширенная C++ (Plugin) версия на основе [Advanced Locomotion System V4](https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1) для **Unreal Engine 4.25+**
 
 ## Особенности
+- Использование плагина [Surface Footstep System](https://www.unrealengine.com/marketplace/en-US/product/surface-footstep-system) для улучшения звуков/эффектов ходьбы.
 - Вы можете сразу же начать использовать его в своем проекте, не внося никаких серьезных изменений в конфигурацию проекта.
 - Исходный код сильно оптимизирован при переносе из Blueprints. Для 100 персонажей на сцене процессорное время уменьшается с ~17 мс до ~10 мс.
 - Оптимизирована производительность сети и поставляется с полной поддержкой репликации. Плагин ALS в настоящее время превосходит по производительности сети ALS V3 и ALS V4 на основе BP:
@@ -33,9 +34,10 @@ Advanced Locomotion System V4 (C++):
 Общий размер RPC - 91.1 KB
 ```
 
-## Настройка Плагина
-- Клонируйте репозиторий, если вы работаете над проектом C++ или загрузите последнюю версию, если вы работаете над проектом BP.
-- Переместите папку ALS в папку "Plugins" вашего проекта
+## Установка
+- Установите плагин [Surface Footstep System](https://www.unrealengine.com/marketplace/en-US/product/surface-footstep-system).
+- Клонируйте репозиторий в любую удобную папку.
+- Переместите папку ALS в папку "Plugins" вашего проекта.
 - В конфигурационный файл `DefaultInput.ini` нужно добавить следующее (если файл `DefaultInput.ini` не найден создайте его):
 ```
 [/Script/Engine.InputSettings]
@@ -67,6 +69,21 @@ Advanced Locomotion System V4 (C++):
 [/Script/Engine.CollisionProfile]
 +Profiles=(Name="ALS_Character",CollisionEnabled=QueryAndPhysics,bCanModify=True,ObjectTypeName="Pawn",CustomResponses=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore),(Channel="Climbable",Response=ECR_Ignore)),HelpMessage="Custom collision settings for the capsule in the ALS_BaseCharacter.")
 +DefaultChannelResponses=(Channel=ECC_GameTraceChannel2,DefaultResponse=ECR_Block,bTraceType=True,bStaticObject=False,Name="Climbable")
+
+[/Script/Engine.PhysicsSettings]
++PhysicalSurfaces=(Type=SurfaceType1,Name="Concrete")
++PhysicalSurfaces=(Type=SurfaceType2,Name="Dirt")
++PhysicalSurfaces=(Type=SurfaceType3,Name="Glass")
++PhysicalSurfaces=(Type=SurfaceType4,Name="Grass")
++PhysicalSurfaces=(Type=SurfaceType5,Name="Gravel")
++PhysicalSurfaces=(Type=SurfaceType6,Name="Ice")
++PhysicalSurfaces=(Type=SurfaceType7,Name="Metal")
++PhysicalSurfaces=(Type=SurfaceType8,Name="Mud")
++PhysicalSurfaces=(Type=SurfaceType9,Name="Sand")
++PhysicalSurfaces=(Type=SurfaceType10,Name="Snow")
++PhysicalSurfaces=(Type=SurfaceType11,Name="Stone")
++PhysicalSurfaces=(Type=SurfaceType12,Name="Water")
++PhysicalSurfaces=(Type=SurfaceType13,Name="Wood")
 
 [CoreRedirects]
 +PackageRedirects=(OldName="/ALSV4_CPP",NewName="/ALS",MatchSubstring=true)
