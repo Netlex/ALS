@@ -4,7 +4,7 @@
 Оптимизированная реплицируемая и расширенная C++ (Plugin) версия на основе [Advanced Locomotion System V4](https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1) для **Unreal Engine 4.25+**
 
 ## Особенности
-- Использование плагина [Surface Footstep System](https://www.unrealengine.com/marketplace/en-US/product/surface-footstep-system) для улучшения звуков/эффектов ходьбы.
+- Добавлено использование плагина [Surface Footstep System](https://www.unrealengine.com/marketplace/en-US/product/surface-footstep-system) для улучшения звуков/эффектов ходьбы и гибкой настройки.
 - Вы можете сразу же начать использовать его в своем проекте, не внося никаких серьезных изменений в конфигурацию проекта.
 - Исходный код сильно оптимизирован при переносе из Blueprints. Для 100 персонажей на сцене процессорное время уменьшается с ~17 мс до ~10 мс.
 - Оптимизирована производительность сети и поставляется с полной поддержкой репликации. Плагин ALS в настоящее время превосходит по производительности сети ALS V3 и ALS V4 на основе BP:
