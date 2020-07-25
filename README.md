@@ -94,5 +94,5 @@ WorldSettingsClassName=/Script/SurfaceFootstepSystem.FootstepWorldSettings
 +PackageRedirects=(OldName="/ALS/AdvancedLocomotionV4",NewName="/ALS",MatchSubstring=true)
 +PackageRedirects=(OldName="/ALS/AdvancedLocomotionV4",Removed=true)
 ```
-- Запустите свой проект и включите просмотр контента плагина, как показано ниже:
+- Запустите свой проект и включите просмотр контента плагина, как показано ниже чтобы получить доступ к файлам ALS:
 ![image](https://github.com/dyanikoglu/ALSV4_CPP/raw/master/Resources/Readme_Content_1.png)
