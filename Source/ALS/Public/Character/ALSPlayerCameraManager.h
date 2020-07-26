@@ -17,7 +17,7 @@ class AALSBaseCharacter;
 /**
  * Player camera manager class
  */
-UCLASS(Blueprintable, BlueprintType)
+UCLASS(Blueprintable, Abstract)
 class ALS_API AALSPlayerCameraManager : public APlayerCameraManager
 {
 	GENERATED_BODY()

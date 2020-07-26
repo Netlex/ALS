@@ -15,7 +15,7 @@
 /**
  * Specialized character class, with additional features like held object etc.
  */
-UCLASS(Blueprintable, BlueprintType)
+UCLASS(Blueprintable, Abstract)
 class ALS_API AALSCharacter : public AALSBaseCharacter
 {
 	GENERATED_BODY()

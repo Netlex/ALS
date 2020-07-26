@@ -20,7 +20,7 @@ class AALSPlayerController;
 /**
  * Main class for player camera movement behavior
  */
-UCLASS(Blueprintable, BlueprintType)
+UCLASS(Blueprintable, Abstract)
 class ALS_API UALSPlayerCameraBehavior : public UAnimInstance
 {
 	GENERATED_BODY()

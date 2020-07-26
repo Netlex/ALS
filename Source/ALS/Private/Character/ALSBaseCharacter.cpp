@@ -1529,10 +1529,6 @@ void AALSBaseCharacter::JumpPressedAction()
 		{
 			MantleCheckFalling();
 		}
-		else if (MovementState == EALSMovementState::Ragdoll)
-		{
-			ReplicatedRagdollEnd();
-		}
 	}
 }
 

@@ -16,7 +16,7 @@ class AALSBaseCharacter;
 /**
  * Player controller class
  */
-UCLASS(Blueprintable, BlueprintType)
+UCLASS(Blueprintable, Abstract)
 class ALS_API AALSPlayerController : public APlayerController
 {
 	GENERATED_BODY()

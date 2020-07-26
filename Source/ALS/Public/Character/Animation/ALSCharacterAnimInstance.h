@@ -22,7 +22,7 @@ class UCurveVector;
 /**
  * Main anim instance class for character
  */
-UCLASS(Blueprintable, BlueprintType)
+UCLASS(Blueprintable, Abstract)
 class ALS_API UALSCharacterAnimInstance : public UAnimInstance
 {
 	GENERATED_BODY()
